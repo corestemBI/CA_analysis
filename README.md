@@ -2,26 +2,18 @@
 
 
 # CA_analysis
-##### This Repository Included Scripts Written For Results Prediction of Phase 3  
+##### This Repository Included Scripts Written For Results CA analysis (Efficacy) 
 
-
+<p align="center"> <img src = "https://user-images.githubusercontent.com/98365385/152940833-2fabfae8-9ca3-426d-9bd1-56a587fabf44.png" width="80%" height="80%"> </p>
 
 ## Data
 ### 1. Phase 1 data (N = 10)
 #### Raw files :
   ###
+  
 ```
-Phase 1 data : Private
-```
-### 2. RNA-Seq data :
-  ###
-```
-RNA-Seq data : Private
-```
-### 3. Clinical data :
-  ###
-```
-Clinical data : Private
+Clinical data : ./data/*
+RNA-Seq data : Excluded
 ```
 
 ## Scripts
