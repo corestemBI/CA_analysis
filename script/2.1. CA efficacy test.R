@@ -8,7 +8,7 @@ load("./data/ca_analysis.image")
 
 #### 2. efficacy test with SARA ####
 
-efficacy_test_with_plot = function(efficacy_file, visit_table, index){
+efficacy_test_with_plot = function(efficacy_table, visit_table, index){
     
     #### calculate SARA slope ####
     
@@ -72,7 +72,7 @@ efficacy_test_with_plot = function(efficacy_file, visit_table, index){
     ggsave(paste0("./output/V1224_wilcox_", index, "_paired_boxplot.tiff"), tmp1224, width = 8, height = 8, compression = "lzw")
     ggsave(paste0("./output/V1225_wilcox_", index, "_paired_boxplot.tiff"), tmp1225, width = 8, height = 8, compression = "lzw")
 }
-SARA_efficacy_test = efficacy_test_with_plot(efficacy_file_SARA, visit_table, "SARA")
+SARA_efficacy_test = efficacy_test_with_plot(efficacy_file_SARA, visit_date_SARA, "SARA")
 
 
 
