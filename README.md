@@ -10,18 +10,10 @@
 ### 1. Phase 1 data (N = 10)
 #### Raw files :
   ###
+  
 ```
-Phase 1 data : Private
-```
-### 2. RNA-Seq data :
-  ###
-```
-RNA-Seq data : Private
-```
-### 3. Clinical data :
-  ###
-```
-Clinical data : Private
+Clinical data : ./data/*
+RNA-Seq data : Excluded
 ```
 
 ## Scripts
